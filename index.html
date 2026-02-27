@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pradip Gaire - Social Media Strategist, Managing Director, and Computer Science Graduate." />
+  <title>Pradip Gaire | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Syne:wght@500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loader" aria-hidden="true">
+    <div class="loader-ring"></div>
+    <p>Crafting Experience...</p>
+  </div>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="home">
+    <nav class="nav container glass-panel">
+      <a href="#home" class="brand">Pradip<span>Gaire</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="navLinks" class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#travel">Travel</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <p class="hero-kicker">Balgun, Galkot Municipality-2, Nepal</p>
+        <h1>Hello, I&apos;m <span>Pradip Gaire</span></h1>
+        <p class="typing-line">
+          <span id="typedText"></span>
+          <span class="typing-caret">|</span>
+        </p>
+        <p class="hero-summary">
+          Social media strategist and business leader with global exposure across India, Japan, and the United Kingdom.
+          I blend digital strategy with leadership to build meaningful brands and scalable impact.
+        </p>
+        <div class="hero-actions">
+          <a class="btn glow-btn ripple" href="#experience">View My Work</a>
+          <a class="btn btn-outline ripple" href="#contact">Contact Me</a>
+        </div>
+        <div class="social-float" aria-label="Social links">
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="image-wrap floating">
+          <img src="hello.jpeg" alt="Portrait of Pradip Gaire" class="glow-image" />
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="section container">
+      <div class="section-head reveal">
+        <p class="section-label">About Me</p>
+        <h2>A strategic communicator with technical depth</h2>
+      </div>
+
+      <article class="about-card glass-panel reveal">
+        <div class="about-image-wrap">
+          <img src="hi.jpeg" alt="Pradip Gaire at work" class="glow-image" />
+        </div>
+        <div class="about-content">
+          <p>
+            I am Pradip Gaire, a Computer Science graduate and Managing Director at Monsoon Education Consultancy.
+            My leadership journey also includes shaping brand voice and community growth as Social Media Manager
+            at Hard Rock Cafe and Gurkha Restaurants Edinburgh.
+          </p>
+          <p>
+            I focus on blending technology, storytelling, and market insight to create digital strategies that are both
+            human-centered and business-driven.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label">Education</p>
+          <h2>Academic journey with international perspective</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="dot"></span>
+            <div class="timeline-card glass-panel">
+              <h3>Bachelor in Computer Science</h3>
+              <p>Completed with a strong foundation in software, systems, and digital innovation.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item highlight reveal">
+            <span class="dot"></span>
+            <div class="timeline-card glass-panel napier-highlight">
+              <h3>1-Year International Degree</h3>
+              <p><strong>Napier University</strong> - advanced international exposure in professional and academic development.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <div class="section-head reveal">
+        <p class="section-label">Work Experience</p>
+        <h2>Leadership and brand impact</h2>
+      </div>
+
+      <div class="card-grid">
+        <article class="exp-card glass-panel reveal">
+          <h3>Hard Rock Cafe</h3>
+          <p>Social Media Manager</p>
+          <span>Led social storytelling, campaign planning, and audience engagement growth.</span>
+        </article>
+
+        <article class="exp-card glass-panel reveal">
+          <h3>Gurkha Restaurants Edinburgh</h3>
+          <p>Social Media Manager</p>
+          <span>Strengthened online presence, customer interaction, and content strategy.</span>
+        </article>
+
+        <article class="exp-card glass-panel reveal">
+          <h3>Monsoon Education Consultancy</h3>
+          <p>Managing Director</p>
+          <span>Driving strategic direction, partnerships, and operational excellence.</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="travel" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label">Travel Experience</p>
+          <h2>Global exposure shaping my perspective</h2>
+        </div>
+
+        <div class="travel-grid">
+          <article class="travel-card glass-panel reveal"><h3>India</h3><p>Culture, markets, and diverse consumer behavior insights.</p></article>
+          <article class="travel-card glass-panel reveal"><h3>Japan</h3><p>Precision, discipline, and innovation-inspired mindset.</p></article>
+          <article class="travel-card glass-panel reveal"><h3>United Kingdom</h3><p>International professional network and cross-cultural leadership growth.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-head reveal">
+        <p class="section-label">Skills</p>
+        <h2>Core strengths and capabilities</h2>
+      </div>
+
+      <div class="skills-list glass-panel reveal">
+        <div class="skill-item">
+          <div class="skill-head"><h3>Social Media Marketing</h3><span>95%</span></div>
+          <div class="progress"><span data-width="95%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-head"><h3>Leadership</h3><span>90%</span></div>
+          <div class="progress"><span data-width="90%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-head"><h3>Web Design</h3><span>82%</span></div>
+          <div class="progress"><span data-width="82%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-head"><h3>Branding</h3><span>88%</span></div>
+          <div class="progress"><span data-width="88%"></span></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-head"><h3>Digital Strategy</h3><span>92%</span></div>
+          <div class="progress"><span data-width="92%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label">Contact</p>
+          <h2>Let&apos;s collaborate on your next big vision</h2>
+        </div>
+
+        <div class="contact-wrap glass-panel reveal">
+          <form class="contact-form" action="#" method="post">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your full name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+            </label>
+            <button type="submit" class="btn glow-btn ripple">Send Message</button>
+          </form>
+
+          <aside class="contact-aside">
+            <p><i class="fa-solid fa-location-dot"></i> Balgun, Galkot Municipality-2, Nepal</p>
+            <p><i class="fa-solid fa-briefcase"></i> Managing Director, Monsoon Education Consultancy</p>
+            <div class="social-float vertical">
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Pradip Gaire. Crafted with precision and premium design aesthetics.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
